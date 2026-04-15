@@ -29,6 +29,28 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/site.webmanifest',
+  openGraph: {
+    title: "Sami's at the Bradda Glen | Mediterranean Restaurant in Port Erin, Isle of Man",
+    description: "Experience Mediterranean and Middle Eastern flavours with stunning Port Erin Bay views. Perfect for dining, events, weddings, and functions at the Isle of Man's premier destination restaurant.",
+    url: 'https://samis.im',
+    siteName: "Sami's at the Bradda Glen",
+    images: [
+      {
+        url: '/meta-twitter-img.jpg',
+        width: 1200,
+        height: 630,
+        alt: "Sami's at the Bradda Glen Restaurant",
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Sami's at the Bradda Glen | Mediterranean Restaurant in Port Erin, Isle of Man",
+    description: "Experience Mediterranean and Middle Eastern flavours with stunning Port Erin Bay views. Perfect for dining, events, weddings, and functions at the Isle of Man's premier destination restaurant.",
+    images: ['/meta-twitter-img.jpg'],
+  },
 };
 
 export default function RootLayout({
