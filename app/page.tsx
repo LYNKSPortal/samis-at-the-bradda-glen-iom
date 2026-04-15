@@ -49,16 +49,19 @@ export default function Home() {
             title="Exceptional Dining"
             description="Savour authentic Mediterranean and Middle Eastern dishes crafted with fresh, locally-sourced ingredients and traditional recipes passed down through generations."
             imagePath="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069"
+            href="/menus"
           />
           <Card
             title="Stunning Location"
             description="Dine with panoramic views of Port Erin Bay and the dramatic Bradda Glen coastline. Our scenic setting creates the perfect backdrop for any occasion."
             imagePath="https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070"
+            href="/gallery"
           />
           <Card
             title="Warm Hospitality"
             description="Experience the genuine warmth and attentive service that defines Sami's. We treat every guest like family, ensuring memorable moments from arrival to departure."
             imagePath="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070"
+            href="/contact"
           />
         </div>
       </Section>
